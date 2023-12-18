@@ -10,6 +10,8 @@ import time # Biblioteca de tempo
 
 from picamera2 import Picamera2 # Biblioteca da câmera da Raspberry Pi
 
+<img src="/imgRFID.jpg">
+
 # Carrega o classificador para detecção facial (informar o caminho do arquivo)
 
 face_detector = cv2.CascadeClassifier("/home/sel/haarcascade_frontalface_default.xml")
